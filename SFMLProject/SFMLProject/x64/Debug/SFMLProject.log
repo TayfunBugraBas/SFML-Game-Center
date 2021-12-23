@@ -1,0 +1,93 @@
+﻿  SFMLProject.cpp
+D:\projects\SFMLProject\SFMLProject\SpaceSurvival.h(30,29): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+D:\projects\SFMLProject\SFMLProject\SpaceSurvival.h(30,22): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+D:\projects\SFMLProject\SFMLProject\SpaceSurvival.h(59,8): warning C4244: '=': 'int' - 'float' dönüşümü; veri kaybı olabilir
+D:\projects\SFMLProject\SFMLProject\SpaceSurvival.h(60,7): warning C4244: '=': 'int' - 'float' dönüşümü; veri kaybı olabilir
+D:\projects\SFMLProject\SFMLProject\SpaceSurvival.h(62,7): warning C4244: '=': 'int' - 'float' dönüşümü; veri kaybı olabilir
+D:\projects\SFMLProject\SFMLProject\SpaceSurvival.h(81,20): warning C4244: '=': 'int' - 'float' dönüşümü; veri kaybı olabilir
+D:\projects\SFMLProject\SFMLProject\SpaceSurvival.h(82,20): warning C4244: '=': 'int' - 'float' dönüşümü; veri kaybı olabilir
+D:\projects\SFMLProject\SFMLProject\SpaceSurvival.h(176,1): warning C4305: 'bağımsız değişken': 'double' iken 'float' olarak kesildi
+D:\projects\SFMLProject\SFMLProject\SpaceSurvival.h(177,1): warning C4305: 'bağımsız değişken': 'double' iken 'float' olarak kesildi
+D:\projects\SFMLProject\SFMLProject\SpaceSurvival.h(184,56): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+D:\projects\SFMLProject\SFMLProject\SpaceSurvival.h(206,32): warning C4244: 'bağımsız değişken': 'float' - 'int' dönüşümü; veri kaybı olabilir
+D:\projects\SFMLProject\SFMLProject\SpaceSurvival.h(206,29): warning C4244: 'bağımsız değişken': 'float' - 'int' dönüşümü; veri kaybı olabilir
+D:\projects\SFMLProject\SFMLProject\SpaceSurvival.h(243,67): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+D:\projects\SFMLProject\SFMLProject\SpaceSurvival.h(259,12): warning C4244: '=': 'double' - 'float' dönüşümü; veri kaybı olabilir
+D:\projects\SFMLProject\SFMLProject\SpaceSurvival.h(260,12): warning C4244: '=': 'double' - 'float' dönüşümü; veri kaybı olabilir
+D:\projects\SFMLProject\SFMLProject\SpaceSurvival.h(263,12): warning C4244: '=': 'double' - 'float' dönüşümü; veri kaybı olabilir
+D:\projects\SFMLProject\SFMLProject\SpaceSurvival.h(264,12): warning C4244: '=': 'double' - 'float' dönüşümü; veri kaybı olabilir
+D:\projects\SFMLProject\SFMLProject\tredRace.h(13,18): warning C4305: 'başlatılıyor': 'double' iken 'float' olarak kesildi
+D:\projects\SFMLProject\SFMLProject\tredRace.h(42,39): warning C4244: 'bağımsız değişken': 'int' - 'T' dönüşümü; veri kaybı olabilir
+          with
+          [
+              T=float
+          ]
+D:\projects\SFMLProject\SFMLProject\tredRace.h(42,33): warning C4244: 'bağımsız değişken': 'int' - 'T' dönüşümü; veri kaybı olabilir
+          with
+          [
+              T=float
+          ]
+D:\projects\SFMLProject\SFMLProject\tredRace.h(43,39): warning C4244: 'bağımsız değişken': 'int' - 'T' dönüşümü; veri kaybı olabilir
+          with
+          [
+              T=float
+          ]
+D:\projects\SFMLProject\SFMLProject\tredRace.h(43,33): warning C4244: 'bağımsız değişken': 'int' - 'T' dönüşümü; veri kaybı olabilir
+          with
+          [
+              T=float
+          ]
+D:\projects\SFMLProject\SFMLProject\tredRace.h(44,39): warning C4244: 'bağımsız değişken': 'int' - 'T' dönüşümü; veri kaybı olabilir
+          with
+          [
+              T=float
+          ]
+D:\projects\SFMLProject\SFMLProject\tredRace.h(44,33): warning C4244: 'bağımsız değişken': 'int' - 'T' dönüşümü; veri kaybı olabilir
+          with
+          [
+              T=float
+          ]
+D:\projects\SFMLProject\SFMLProject\tredRace.h(45,39): warning C4244: 'bağımsız değişken': 'int' - 'T' dönüşümü; veri kaybı olabilir
+          with
+          [
+              T=float
+          ]
+D:\projects\SFMLProject\SFMLProject\tredRace.h(45,33): warning C4244: 'bağımsız değişken': 'int' - 'T' dönüşümü; veri kaybı olabilir
+          with
+          [
+              T=float
+          ]
+D:\projects\SFMLProject\SFMLProject\tredRace.h(53,1): warning C4267: 'bağımsız değişken': 'size_t' - 'int' dönüşümü; veri kaybı olabilir
+D:\projects\SFMLProject\SFMLProject\tredRace.h(53,18): warning C4244: 'bağımsız değişken': 'float' - 'int' dönüşümü; veri kaybı olabilir
+D:\projects\SFMLProject\SFMLProject\tredRace.h(58,12): warning C4244: '=': 'float' - 'int' dönüşümü; veri kaybı olabilir
+D:\projects\SFMLProject\SFMLProject\tredRace.h(66,47): warning C4244: 'bağımsız değişken': 'float' - 'int' dönüşümü; veri kaybı olabilir
+D:\projects\SFMLProject\SFMLProject\tredRace.h(66,32): warning C4244: 'bağımsız değişken': 'float' - 'int' dönüşümü; veri kaybı olabilir
+D:\projects\SFMLProject\SFMLProject\tredRace.h(67,66): warning C4244: 'bağımsız değişken': 'double' - 'int' dönüşümü; veri kaybı olabilir
+D:\projects\SFMLProject\SFMLProject\tredRace.h(67,58): warning C4244: 'bağımsız değişken': 'float' - 'int' dönüşümü; veri kaybı olabilir
+D:\projects\SFMLProject\SFMLProject\tredRace.h(67,53): warning C4244: 'bağımsız değişken': 'float' - 'int' dönüşümü; veri kaybı olabilir
+D:\projects\SFMLProject\SFMLProject\tredRace.h(67,45): warning C4244: 'bağımsız değişken': 'double' - 'int' dönüşümü; veri kaybı olabilir
+D:\projects\SFMLProject\SFMLProject\tredRace.h(67,37): warning C4244: 'bağımsız değişken': 'float' - 'int' dönüşümü; veri kaybı olabilir
+D:\projects\SFMLProject\SFMLProject\tredRace.h(67,32): warning C4244: 'bağımsız değişken': 'float' - 'int' dönüşümü; veri kaybı olabilir
+D:\projects\SFMLProject\SFMLProject\tredRace.h(68,52): warning C4244: 'bağımsız değişken': 'float' - 'int' dönüşümü; veri kaybı olabilir
+D:\projects\SFMLProject\SFMLProject\tredRace.h(68,47): warning C4244: 'bağımsız değişken': 'float' - 'int' dönüşümü; veri kaybı olabilir
+D:\projects\SFMLProject\SFMLProject\tredRace.h(68,42): warning C4244: 'bağımsız değişken': 'float' - 'int' dönüşümü; veri kaybı olabilir
+D:\projects\SFMLProject\SFMLProject\tredRace.h(68,37): warning C4244: 'bağımsız değişken': 'float' - 'int' dönüşümü; veri kaybı olabilir
+D:\projects\SFMLProject\SFMLProject\tredRace.h(68,32): warning C4244: 'bağımsız değişken': 'float' - 'int' dönüşümü; veri kaybı olabilir
+D:\projects\SFMLProject\SFMLProject\tredRace.h(68,27): warning C4244: 'bağımsız değişken': 'float' - 'int' dönüşümü; veri kaybı olabilir
+D:\projects\SFMLProject\SFMLProject\tredRace.h(86,15): warning C4244: '=': 'int' - 'float' dönüşümü; veri kaybı olabilir
+D:\projects\SFMLProject\SFMLProject\tredRace.h(93,13): warning C4244: 'başlatılıyor': 'double' - 'float' dönüşümü; veri kaybı olabilir
+D:\projects\SFMLProject\SFMLProject\tredRace.h(127,1): warning C4267: '-=': 'size_t' - 'int' dönüşümü; veri kaybı olabilir
+D:\projects\SFMLProject\SFMLProject\tredRace.h(128,1): warning C4267: '+=': 'size_t' - 'int' dönüşümü; veri kaybı olabilir
+D:\projects\SFMLProject\SFMLProject\tredRace.h(137,13): warning C4244: 'başlatılıyor': 'float' - 'int' dönüşümü; veri kaybı olabilir
+D:\projects\SFMLProject\SFMLProject\Raycasting.h(26,18): warning C4244: 'bağımsız değişken': 'float' - 'GLint' dönüşümü; veri kaybı olabilir
+D:\projects\SFMLProject\SFMLProject\Raycasting.h(26,14): warning C4244: 'bağımsız değişken': 'float' - 'GLint' dönüşümü; veri kaybı olabilir
+D:\projects\SFMLProject\SFMLProject\Raycasting.h(31,18): warning C4244: 'bağımsız değişken': 'float' - 'GLint' dönüşümü; veri kaybı olabilir
+D:\projects\SFMLProject\SFMLProject\Raycasting.h(31,14): warning C4244: 'bağımsız değişken': 'float' - 'GLint' dönüşümü; veri kaybı olabilir
+D:\projects\SFMLProject\SFMLProject\Raycasting.h(32,31): warning C4244: 'bağımsız değişken': 'float' - 'GLint' dönüşümü; veri kaybı olabilir
+D:\projects\SFMLProject\SFMLProject\Raycasting.h(32,17): warning C4244: 'bağımsız değişken': 'float' - 'GLint' dönüşümü; veri kaybı olabilir
+D:\projects\SFMLProject\SFMLProject\Raycasting.h(105,16): warning C4244: '=': 'double' - 'float' dönüşümü; veri kaybı olabilir
+D:\projects\SFMLProject\SFMLProject\Raycasting.h(107,17): warning C4244: '=': 'double' - 'float' dönüşümü; veri kaybı olabilir
+D:\projects\SFMLProject\SFMLProject\Raycasting.h(113,16): warning C4244: '=': 'double' - 'float' dönüşümü; veri kaybı olabilir
+D:\projects\SFMLProject\SFMLProject\Raycasting.h(115,17): warning C4244: '=': 'double' - 'float' dönüşümü; veri kaybı olabilir
+D:\projects\SFMLProject\SFMLProject\Raycasting.h(145,1): warning C4305: 'bağımsız değişken': 'double' iken 'GLclampf' olarak kesildi
+  SFMLProject.vcxproj -> D:\projects\SFMLProject\x64\Debug\SFMLProject.exe
