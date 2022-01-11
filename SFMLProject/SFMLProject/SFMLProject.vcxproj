@@ -151,11 +151,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="pongs.cpp" />
     <ClCompile Include="SFMLProject.cpp" />
     <ClCompile Include="Tetriss.cpp" />
     <ClCompile Include="Tus.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Ball.h" />
+    <ClInclude Include="platesx.h" />
+    <ClInclude Include="pongs.h" />
     <ClInclude Include="Raycasting.h" />
     <ClInclude Include="resource.h" />
     <ClInclude Include="SpaceSurvival.h" />

@@ -6,6 +6,7 @@
 #include "SpaceSurvival.h"
 #include "tredRace.h"
 #include "Raycasting.h"
+#include "pongs.h"
 
 
 
@@ -16,15 +17,16 @@ using namespace std;
 tredRace rc;
 SpaceSurvival spc;
 Raycasting ryc;
+pongs png;
 
 int main(int argc, char* argv[]){
     vector<Tus> tuslar;
   
-    RenderWindow ekran(VideoMode(1024, 800), "GAAAMMMEESSSSS!!!!!",Style::Default);
+    RenderWindow ekran(VideoMode(1024, 800), "SFML-GAME_CENTER",Style::Default);
     ekran.setFramerateLimit(60);
 
     Tus tus1 ("Psedo Drive" , { 200,50 }, Color::Black, Color::White );
-    tus1.TusPoz({ 150,50 });
+    tus1.TusPoz({ 400,50 });
     Font arial;
     arial.loadFromFile("arial.ttf");
     tus1.sFont(arial);
@@ -33,16 +35,22 @@ int main(int argc, char* argv[]){
 
 
     Tus tus2("SurvivalSpace", { 200,50 }, Color::Black, Color::White);
-    tus2.TusPoz({ 150,150 });
+    tus2.TusPoz({ 400,150 });
     tus2.sFont(arial);
     tus2.FontSize(20);
     tuslar.push_back(tus2);
 
     Tus tus3("RayCasting", { 200,50 }, Color::Black, Color::White);
-    tus3.TusPoz({ 150,250 });
+    tus3.TusPoz({ 400,250 });
     tus3.sFont(arial);
     tus3.FontSize(20);
     tuslar.push_back(tus3);
+
+    Tus tus4("Poing", { 200,50 }, Color::Black, Color::White);
+    tus4.TusPoz({ 400,350 });
+    tus4.sFont(arial);
+    tus4.FontSize(20);
+    tuslar.push_back(tus4);
 
 
 
@@ -80,7 +88,11 @@ int main(int argc, char* argv[]){
                     
                 }
                 else if (tus3.FareHover(ekran)) {
-                    ryc.RayMain( argc, argv);
+                    ryc.RayMain(argc, argv);
+
+                }
+                else if (tus4.FareHover(ekran)) {
+                    png.mainPong();
 
                 }
 
@@ -95,6 +107,7 @@ int main(int argc, char* argv[]){
         tus1.EkranaCiz(ekran);
         tus2.EkranaCiz(ekran);
         tus3.EkranaCiz(ekran);
+        tus4.EkranaCiz(ekran);
         ekran.display();
 
         

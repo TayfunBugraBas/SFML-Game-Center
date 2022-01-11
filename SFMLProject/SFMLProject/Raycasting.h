@@ -61,9 +61,10 @@ public:
 
 float degToRad(int a) {
 
-	return a * PI / 180.0; /* Bilgisayarlar neden Radyanla çalýþýyor :d */
+	return a * PI / 180.0; 
 
 }
+
 int AciDuzelt(int a) {
 	if (a > 359) {
 		a -= 360;
@@ -109,7 +110,7 @@ public:
 		for (r = 0; r < 60; r++)
 		{
 			
-			dof = 0; side = 0; disV = 100000;/*Ellemeyiniz sonra Dünyayý tersten görüyoruz*/
+			dof = 0; side = 0; disV = 10000;
 			float Tan = tan(degToRad(ra));
 			if (cos(degToRad(ra)) > 0.001) { 
 				rx = (((int)px >> 6) << 6) + 64;   
@@ -127,7 +128,7 @@ public:
 			vx = rx; vy = ry;
 
 			
-			dof = 0; disH = 100000;/*Ellemeyiniz sonra Dünyayý tersten görüyoruz*/
+			dof = 0; disH = 10000;
 			Tan = 1.0 / Tan;
 			if (sin(degToRad(ra)) > 0.001) { ry = (((int)py >> 6) << 6) - 0.0001; rx = (py - ry) * Tan + px; yo = -64; xo = -yo * Tan; }
 			else if (sin(degToRad(ra)) < -0.001) { ry = (((int)py >> 6) << 6) + 64;      rx = (py - ry) * Tan + px; yo = 64; xo = -yo * Tan; }
@@ -182,10 +183,22 @@ public:
 
 	void tuslar(unsigned char key, int x, int y) {
 
-		if (key == 'a') { o.pa += 5; o.pa = AciDuzelt(o.pa); o.pdx = cos(degToRad(o.pa)); o.pdy = -sin(degToRad(o.pa)); }
-		if (key == 'd') { o.pa -= 5; o.pa = AciDuzelt(o.pa); o.pdx = cos(degToRad(o.pa)); o.pdy = -sin(degToRad(o.pa)); }
-		if (key == 'w') { o.px += o.pdx * 5; o.py += o.pdy * 5; }
-		if (key == 's') { o.px -= o.pdx * 5; o.py -= o.pdy * 5; }
+		if (key == 'a' || key == 'A') {
+
+			o.pa += 5; o.pa = AciDuzelt(o.pa); o.pdx = cos(degToRad(o.pa)); o.pdy = -sin(degToRad(o.pa));
+		}
+		if (key == 'd' || key == 'D') {
+
+			o.pa -= 5; o.pa = AciDuzelt(o.pa); o.pdx = cos(degToRad(o.pa)); o.pdy = -sin(degToRad(o.pa)); 
+		}
+		if (key == 'w' || key == 'W') { 
+
+			o.px += o.pdx * 5; o.py += o.pdy * 5; 
+		}
+		if (key == 's' || key == 'S') { 
+
+			o.px -= o.pdx * 5; o.py -= o.pdy * 5; 
+		}
 		glutPostRedisplay();
 
 	}
