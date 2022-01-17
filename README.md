@@ -29,7 +29,7 @@ SFMLProject\GLFW\lib-vc2019
 SFMLProject\glew-2.1.0\lib\Release\x64
 SFMLProject\SFML-2.5.1\lib
 directorylerini kopyalayarak yapıştırınız.
-<----7.Adım---->
+<----7.Adım---->\n
 Tamam tuşuna basıp Bağlayıcı->Giriş kısmına tıklayınız
 Ek bağımlılıklar yazısına tıklayarak düzenleye basınız.
 openal32.lib
